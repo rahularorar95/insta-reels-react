@@ -67,3 +67,11 @@
 .videoFooter__stat > p {
     margin-left: 3px;
 }
+
+.videoFooter__dot {
+    font-size: 8px !important;
+}
+
+.videoFooter__follow {
+    margin-left: -10px !important;
+}

@@ -1,6 +1,5 @@
 import React, { useRef, useState } from "react";
 import "./VideoCard.css";
-import VideoHeader from "./VideoHeader";
 import VideoFooter from "./VideoFooter";
 
 function VideoCard({ url, likes, shares, channel, avatarSrc, song }) {
@@ -23,7 +22,7 @@ function VideoCard({ url, likes, shares, channel, avatarSrc, song }) {
 
   return (
     <div className="videoCard">
-      <VideoHeader />
+      
       <video
         ref={videoRef}
         onClick={onVideoPress}

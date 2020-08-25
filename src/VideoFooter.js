@@ -6,6 +6,7 @@ import FavoriteIcon from "@material-ui/icons/Favorite";
 import ModeCommentIcon from "@material-ui/icons/ModeComment";
 import SendIcon from "@material-ui/icons/Send";
 import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
+import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
 
 import Ticker from "react-ticker";
 
@@ -15,7 +16,7 @@ function VideoFooter({ channel, song, likes, shares, avatarSrc }) {
       <div className="videoFooter__text">
         <Avatar src={avatarSrc} />
         <h3>
-          {channel} <Button>Follow</Button>
+          {channel} <FiberManualRecordIcon className="videoFooter__dot" /> <Button className="videoFooter__follow" >Follow</Button>
         </h3>
       </div>
 
