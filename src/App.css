@@ -27,7 +27,7 @@ html {
   width: 70%;
   border-radius: 20px;
   max-height: 1200px;
-  max-width: 450px;
+  max-width: 400px;
   overflow: scroll;
   scroll-snap-type: y mandatory;
 }
